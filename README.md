@@ -4,7 +4,13 @@
 Some UI components designed by imitating Overwatch.
 
 ## Usage
-
+```
+https://raw.githubusercontent.com/CairBin/OverwatchUI/main/main.css
+```
+You can use CDN.
+```
+https://cdn.jsdelivr.net/gh/CairBin/OverwatchUI@v1.0/main.css
+```
 
 ## Components
 
