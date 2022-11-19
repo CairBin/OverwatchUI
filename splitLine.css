@@ -1,0 +1,9 @@
+.ow-ver-split-line{
+    background:whitesmoke;
+    opacity: 0.3;
+    width: 5px;
+    height: 75%;
+    border-radius: 10px;
+    left: 45%;
+    display: inline-block;
+}

@@ -1,0 +1,9 @@
+.ow-content{
+    z-index: -1;
+    position: absolute;
+    top:7%;
+    height: 86%;
+    width: 100%;
+    background-color: whitesmoke;
+    font-weight: 400;
+}

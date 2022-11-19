@@ -1,0 +1,41 @@
+.ow-list{
+    width: 25%;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.ow-list-item{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 3px;
+    height: 40px;
+}
+
+.ow-list-item-selected {
+    background-color: orangered;
+    color:white;
+}
+
+
+.ow-list-item:hover{
+    transform: scale(1.1);
+    animation: glow 1200ms ease-out infinite alternate;
+}
+
+.ow-list-item-title{
+    margin-left: 8%;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 0 1px rgba(255, 255, 255);
+    }
+
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255);
+    }
+
+}

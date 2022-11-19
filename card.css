@@ -1,0 +1,44 @@
+.ow-card{
+    margin-top:25px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    width:270px;
+    height: 410px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+
+.ow-card:hover{
+    transform: scale(1.1);
+    animation: glow 1200ms ease-out infinite alternate;
+}
+
+
+.ow-card-img{
+    display: block;
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ow-card-title{
+    text-align: center;
+    font-weight: 800;
+}
+.ow-card-text{
+    text-align: center;
+    font-weight: 500;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 0 1px rgba(255, 255, 255);
+    }
+
+    100% {
+        box-shadow: 0 0 0 3px rgba(255, 255, 255);
+    }
+
+}

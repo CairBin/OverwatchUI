@@ -1,0 +1,39 @@
+.ow-button{
+    width: 90px;
+    height: 50px;
+    font-size: 1.1em;
+    font-weight: 800;
+    border-radius: 3px;
+    border: 0;
+    margin-left: 10px;
+}
+
+.ow-button:hover {
+    transform: scale(1.1);
+    animation: glow 1200ms ease-out infinite alternate;
+}
+
+.ow-ensure-button{
+    background-color:orangered;
+    color:white;
+}
+
+
+
+.ow-cancel-button {
+    background-color: white;
+    color: black;
+}
+
+/* 按钮呼吸效果 */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 0 1px rgba(255, 255, 255);
+    }
+
+    100%{
+        box-shadow: 0 0 0 2px rgba(255, 255, 255);
+    }
+
+}
+
